@@ -1,0 +1,375 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32173 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Game Design/Year3/POE/Part 2/Racing sim
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+61734
+Successfully changed project path to: C:/Game Design/Year3/POE/Part 2/Racing sim
+C:/Game Design/Year3/POE/Part 2/Racing sim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28380] Host "[IP] 192.168.101.117 [Port] 0 [Flags] 2 [Guid] 1802301451 [EditorId] 1802301451 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LFMRQPTC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28380] Host "[IP] 192.168.101.117 [Port] 0 [Flags] 2 [Guid] 1802301451 [EditorId] 1802301451 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LFMRQPTC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Design/Year3/POE/Part 2/Racing sim/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005263 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005606 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Design\Year3\POE\Part 2\Racing sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Design\Year3\POE\Part 2\Racing sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Domain Reload Profiling:
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3521.
+Memory consumption went from 108.3 MB to 108.2 MB.
+Total: 3.331900 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.823100 ms  DeleteObjects: 0.131600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005210 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Design\Year3\POE\Part 2\Racing sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Design\Year3\POE\Part 2\Racing sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3524.
+Memory consumption went from 108.1 MB to 108.0 MB.
+Total: 3.018400 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.136100 ms MarkObjects: 2.421400 ms  DeleteObjects: 0.095800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 860003.593827 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Car01.obj
+  artifactKey: Guid(57d23153e8a364f379241122438b5cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Car01.obj using Guid(57d23153e8a364f379241122438b5cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68c0417c2bc9484da3a8a8bf78d178c') in 0.241891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Wheel02.obj
+  artifactKey: Guid(170f799d2e39647e3ad2b8714a46e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Wheel02.obj using Guid(170f799d2e39647e3ad2b8714a46e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023bc4784a2d7880c7772d4e22964d86') in 0.057668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Wheel03.obj
+  artifactKey: Guid(ab4ac2149fc2142aaadb2bc00cccc91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Wheel03.obj using Guid(ab4ac2149fc2142aaadb2bc00cccc91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40f5cc51509e1eeced67e263fb6d856') in 0.057081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Car06.obj
+  artifactKey: Guid(d542e1447a099d316b252552d45cd7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Car06.obj using Guid(d542e1447a099d316b252552d45cd7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294bf8abd880ca17a47f23577e6d0029') in 0.071592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Car05.obj
+  artifactKey: Guid(2c9905fc8f65a4003856f80c2d000216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Car05.obj using Guid(2c9905fc8f65a4003856f80c2d000216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd579d5c305def31e3f1beabc6634881') in 0.121571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Wheel04.obj
+  artifactKey: Guid(222de76c93e0e4ab3a2a0d9bc0cc16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Wheel04.obj using Guid(222de76c93e0e4ab3a2a0d9bc0cc16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cede38cba1b8f67e48e4007f62005a7') in 0.049551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Trail.mat
+  artifactKey: Guid(cf67cfc288c6d4eba9e67404b1952a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Trail.mat using Guid(cf67cfc288c6d4eba9e67404b1952a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e3ccabfda83eaf17e78b69af511a16') in 0.101227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Arcade_Car_Physics/Models/Car04.obj
+  artifactKey: Guid(09e64466acbe94caf9b481b85cd65501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Models/Car04.obj using Guid(09e64466acbe94caf9b481b85cd65501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f022375b7e87a62038931589ea3e3f') in 0.086266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.618321 seconds.
+  path: Assets/Arcade_Car_Physics/DemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(a2580feb0eb9f0797b05884188779c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/DemoScene/ReflectionProbe-0.exr using Guid(a2580feb0eb9f0797b05884188779c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c1fa7e25ff00e0184583ab38755971') in 0.041277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.065086 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke02.png
+  artifactKey: Guid(4d808d0ceb6a04ae3a8d8ebe1440f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke02.png using Guid(4d808d0ceb6a04ae3a8d8ebe1440f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a32e851e11d2d4bdf5981e1d2ccfdc') in 0.056986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke10.png
+  artifactKey: Guid(69fe69ceb7f74448a9e4313492989961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke10.png using Guid(69fe69ceb7f74448a9e4313492989961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c79fde95b18a1f071bda5de383f93b') in 0.041185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke16.png
+  artifactKey: Guid(9c6175bd1633940bba526dfaca692803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke16.png using Guid(9c6175bd1633940bba526dfaca692803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82dd68203001783b813c2827a6c5068') in 0.042450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke04.png
+  artifactKey: Guid(9cafb22ffe7a944e3a90b001fa1c9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke04.png using Guid(9cafb22ffe7a944e3a90b001fa1c9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766ca008c25f09e89ce9011bd7ced091') in 0.041268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke22.png
+  artifactKey: Guid(c0407b4f0d6b14e0087359a5b2f8061c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke22.png using Guid(c0407b4f0d6b14e0087359a5b2f8061c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a33a6fb34e5645e2e28a4607aa548e') in 0.048421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke11.png
+  artifactKey: Guid(71219eea033c14a6f81e7161f7a511a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke11.png using Guid(71219eea033c14a6f81e7161f7a511a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1c7853b961f3bd2cc962f330f5c17e') in 0.040862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke13.png
+  artifactKey: Guid(45b3b73d533e1409f96f99a4da559a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke13.png using Guid(45b3b73d533e1409f96f99a4da559a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5f0036e2d68185f22c12edca9de75f') in 0.040606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke07.png
+  artifactKey: Guid(6c51fbfe0d5db422594af740e77f497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Black smoke/blackSmoke07.png using Guid(6c51fbfe0d5db422594af740e77f497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce9083542a89262f4b818322f6e2be4') in 0.038710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.957160 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Explosion/explosion02.png
+  artifactKey: Guid(60932e0a1cd294818b957d3d8888826b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Explosion/explosion02.png using Guid(60932e0a1cd294818b957d3d8888826b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157fd9fdadf28cd8a62eefeaf699caa8') in 0.054856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/Explosion/explosion06.png
+  artifactKey: Guid(4cef5e65781a74cc49b6239fc4910d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/Explosion/explosion06.png using Guid(4cef5e65781a74cc49b6239fc4910d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf8760d86058437de7d0d64f8f0356e') in 0.065428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.062168 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/White puff/whitePuff02.png
+  artifactKey: Guid(d461b79b3b34543e786e23e368b1280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/White puff/whitePuff02.png using Guid(d461b79b3b34543e786e23e368b1280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4236a9640154d6d36cff30b5ed622b') in 0.026002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/White puff/whitePuff08.png
+  artifactKey: Guid(232bfdd6de13a43c693d4b64a077f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/White puff/whitePuff08.png using Guid(232bfdd6de13a43c693d4b64a077f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1189a02f54e8f1ee3266e9c638d3c012') in 0.023994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/White puff/whitePuff18.png
+  artifactKey: Guid(f7d13af3d430246c1a96ff74e871325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/White puff/whitePuff18.png using Guid(f7d13af3d430246c1a96ff74e871325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76805167c2dc3ff9e716334536d45ec') in 0.023317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/White puff/whitePuff04.png
+  artifactKey: Guid(6c78fae65741a420daedc66264417a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/White puff/whitePuff04.png using Guid(6c78fae65741a420daedc66264417a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34648be4b2214b64666aaf0f40e876df') in 0.022056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/White puff/whitePuff12.png
+  artifactKey: Guid(194682e242a46433f958b8c0a6bef3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/White puff/whitePuff12.png using Guid(194682e242a46433f958b8c0a6bef3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2874a7c113035b17d849c475fd14598') in 0.024055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Arcade_Car_Physics/Textures/White puff/whitePuff16.png
+  artifactKey: Guid(5020814ee41bb4d71aeffd906a8bb55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade_Car_Physics/Textures/White puff/whitePuff16.png using Guid(5020814ee41bb4d71aeffd906a8bb55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb578e262ad1b725aaef673a3b2bdaa') in 0.024498 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
